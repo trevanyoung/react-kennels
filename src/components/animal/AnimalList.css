@@ -1,5 +1,10 @@
-.animal {
+.animals {
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.toastContainer {
+    max-width: 300px;
 }
